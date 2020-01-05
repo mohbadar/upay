@@ -26,5 +26,5 @@ public class ProductCatalog extends BaseEntity implements Serializable {
 	@Column(length = 4000, nullable = true)
 	private String description;
 
-	
+
 }
