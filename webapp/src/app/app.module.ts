@@ -17,15 +17,15 @@ import { HttpErrorInterceptor} from './interceptor/http-error.interceptor';
 
 
 import { AppComponent } from './app.component';
-import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './landing/landing.component';
-import { ProfileComponent } from './profile/profile.component';
-import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
-import { FooterComponent } from './shared/footer/footer.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { LandingComponent } from './components/landing/landing.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
-import { HomeModule } from './home/home.module';
-import { LoginComponent } from './login/login.component';
+import { HomeModule } from './components/home/home.module';
+import { LoginComponent } from './components/login/login.component';
 import { CustomerStore } from './stores/customer.store';
 
 
