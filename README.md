@@ -8,7 +8,7 @@
   - Spring Boot 
   - Angular
   - Node.js 
-  - Yarn 
+  - Angular 
 
 ## Installing and Configuring Keycloak
 Download the standalone server distribution from the [Keycloak website](https://www.keycloak.org/), unpack it and start the server. Follow the [Getting Started](https://www.keycloak.org/docs/latest/getting_started/index.html#creating-the-admin-account) instructions to setup the administrator account.
@@ -51,17 +51,7 @@ mvn clean package spring-boot:run
 Open another terminal and change to the directory where the code was checked out.
 Next change to the `frontend` directory abd execute the following commands:
 ```
-yarn install
-yarn start
+npm install
+npm start
 ```
-## View the Application
-Open an internet browser and navigate to the url: `http://localhost:4200`
 
-You will be presented with the Keycloak login screen:
-
-![Keycloak Login](images/keycloak_login.png?raw=true "Keycloak Login")
-
-Enter one of the username and password combination created earlier to sign in. 
-
-After a successful login you will see the product catalog page:
-![Landing Page](images/shopapp.png?raw=true "Landing Page")
