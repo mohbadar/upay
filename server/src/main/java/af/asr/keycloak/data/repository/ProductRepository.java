@@ -1,4 +1,4 @@
-package af.asr.keycloak.core.repository;
+package af.asr.keycloak.data.repository;
 
 import af.asr.keycloak.data.model.Product;
 import org.springframework.data.jpa.repository.Query;

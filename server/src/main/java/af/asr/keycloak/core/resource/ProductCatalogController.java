@@ -1,4 +1,4 @@
-package af.asr.keycloak.core.controller;
+package af.asr.keycloak.core.resource;
 
 import af.asr.keycloak.core.service.ProductCatalogServiceImpl;
 import af.asr.keycloak.data.model.ProductCatalog;

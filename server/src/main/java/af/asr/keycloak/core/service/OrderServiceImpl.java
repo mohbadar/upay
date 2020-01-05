@@ -1,7 +1,7 @@
 package af.asr.keycloak.core.service;
 
 
-import af.asr.keycloak.core.repository.OrderRepository;
+import af.asr.keycloak.data.repository.OrderRepository;
 import af.asr.keycloak.data.model.Order;
 import af.asr.keycloak.infrastructure.exceptions.DoesNotExistException;
 import org.springframework.beans.factory.annotation.Autowired;
