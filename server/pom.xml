@@ -52,6 +52,13 @@
 			<artifactId>keycloak-spring-boot-starter</artifactId>
 		</dependency>
 
+<!--		lombok-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>compile</scope>
+		</dependency>
+
 		<!-- Spring Boot has very good integration for H2 by just including the
 			runtime H2 jar should be sufficient. -->
 		<dependency>
