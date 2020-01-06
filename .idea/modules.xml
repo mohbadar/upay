@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/upay-iso8583/upay-iso8583.iml" filepath="$PROJECT_DIR$/upay-iso8583/upay-iso8583.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-lang/upay-lang.iml" filepath="$PROJECT_DIR$/upay-lang/upay-lang.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-mpaisa/upay-mpaisa.iml" filepath="$PROJECT_DIR$/upay-mpaisa/upay-mpaisa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-server/upay-server.iml" filepath="$PROJECT_DIR$/upay-server/upay-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-settlement/upay-settlement.iml" filepath="$PROJECT_DIR$/upay-settlement/upay-settlement.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-swift/upay-swift.iml" filepath="$PROJECT_DIR$/upay-swift/upay-swift.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-transformer/upay-transformer.iml" filepath="$PROJECT_DIR$/upay-transformer/upay-transformer.iml" />

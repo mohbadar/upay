@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="upay-api" />
-        <module name="upay-lang" />
-        <module name="upay-youtap" />
-        <module name="upay-docs" />
-        <module name="upay-crypto" />
         <module name="keycloak" />
+        <module name="upay-crypto" />
         <module name="upay-settlement" />
-        <module name="upay-swift" />
-        <module name="upay-webapp" />
-        <module name="upay-transformer" />
-        <module name="upay-iso8583" />
         <module name="upay-async" />
+        <module name="upay-webapp" />
+        <module name="upay-api" />
+        <module name="upay-iso8583" />
+        <module name="upay-swift" />
+        <module name="upay-transformer" />
+        <module name="upay-docs" />
         <module name="upay-mpaisa" />
+        <module name="upay-lang" />
+        <module name="upay-server" />
+        <module name="upay-youtap" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,7 @@
       <module name="upay-iso8583" target="1.8" />
       <module name="upay-lang" target="1.8" />
       <module name="upay-mpaisa" target="1.8" />
+      <module name="upay-server" target="1.8" />
       <module name="upay-settlement" target="1.8" />
       <module name="upay-swift" target="1.8" />
       <module name="upay-transformer" target="1.8" />
@@ -41,6 +43,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="keycloak" options="-parameters" />
+      <module name="upay-lang" options="-parameters" />
+      <module name="upay-server" options="-parameters" />
+      <module name="upay-youtap" options="-parameters" />
     </option>
   </component>
 </project>
