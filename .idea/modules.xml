@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/upay-server/keycloak.iml" filepath="$PROJECT_DIR$/upay-server/keycloak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-gateway.iml" filepath="$PROJECT_DIR$/mobile-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-api/upay-api.iml" filepath="$PROJECT_DIR$/upay-api/upay-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-async/upay-async.iml" filepath="$PROJECT_DIR$/upay-async/upay-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-crypto/upay-crypto.iml" filepath="$PROJECT_DIR$/upay-crypto/upay-crypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-docs/upay-docs.iml" filepath="$PROJECT_DIR$/upay-docs/upay-docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-iso8583/upay-iso8583.iml" filepath="$PROJECT_DIR$/upay-iso8583/upay-iso8583.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-lang/upay-lang.iml" filepath="$PROJECT_DIR$/upay-lang/upay-lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-mpaisa/upay-mpaisa.iml" filepath="$PROJECT_DIR$/upay-mpaisa/upay-mpaisa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-settlement/upay-settlement.iml" filepath="$PROJECT_DIR$/upay-settlement/upay-settlement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-swift/upay-swift.iml" filepath="$PROJECT_DIR$/upay-swift/upay-swift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-transformer/upay-transformer.iml" filepath="$PROJECT_DIR$/upay-transformer/upay-transformer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-webapp/upay-webapp.iml" filepath="$PROJECT_DIR$/upay-webapp/upay-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-youtap/upay-youtap.iml" filepath="$PROJECT_DIR$/upay-youtap/upay-youtap.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>af.asr</groupId>
+    <artifactId>mobile-gateway</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>upay-docs</module>
+        <module>upay-lang</module>
+        <module>upay-async</module>
+        <module>upay-api</module>
+        <module>upay-crypto</module>
+        <module>upay-swift</module>
+        <module>upay-iso8583</module>
+        <module>upay-webapp</module>
+        <module>upay-settlement</module>
+        <module>upay-youtap</module>
+        <module>upay-transformer</module>
+        <module>upay-mpaisa</module>
+    	<module>upay-server</module>
+    </modules>
+
+</project>

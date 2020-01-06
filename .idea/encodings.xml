@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/upay-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-async/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-crypto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-iso8583/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-iso8583/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-lang/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-lang/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-mpaisa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-mpaisa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-settlement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-settlement/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-swift/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-swift/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-transformer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-transformer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-youtap/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-youtap/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
