@@ -20,7 +20,6 @@
         <module name="upay-crypto" />
         <module name="upay-server" />
         <module name="upay-youtap" />
-        <module name="upay-mail" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
