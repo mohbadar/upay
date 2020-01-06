@@ -1,6 +1,6 @@
 package af.asr.keycloak.core.resource.commom.interceptor;
 
-import af.asr.identity.infrastructure.util.Constants;
+import af.asr.keycloak.infrastructure.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

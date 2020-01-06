@@ -1,10 +1,11 @@
 package af.asr.keycloak.core.resource.commom.handler;
 
-import af.asr.identity.infrastructure.exception.identity.InternalServerProblemException;
-import af.asr.identity.infrastructure.exception.identity.ResourceNotFoundException;
-import af.asr.identity.infrastructure.util.ErrorResponseModel;
-import af.asr.identity.infrastructure.util.ResponseModel;
-import af.asr.identity.infrastructure.util.enums.ExceptionType;
+
+import af.asr.keycloak.infrastructure.exception.handler.InternalServerProblemException;
+import af.asr.keycloak.infrastructure.exception.handler.ResourceNotFoundException;
+import af.asr.keycloak.infrastructure.util.ErrorResponseModel;
+import af.asr.keycloak.infrastructure.util.ResponseModel;
+import af.asr.keycloak.infrastructure.util.enums.ExceptionType;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
