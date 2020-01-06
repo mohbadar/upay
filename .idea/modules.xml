@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/mobile-gateway.iml" filepath="$PROJECT_DIR$/mobile-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-api/upay-api.iml" filepath="$PROJECT_DIR$/upay-api/upay-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-async/upay-async.iml" filepath="$PROJECT_DIR$/upay-async/upay-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upay-auditmanager/upay-auditmanager.iml" filepath="$PROJECT_DIR$/upay-auditmanager/upay-auditmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-crypto/upay-crypto.iml" filepath="$PROJECT_DIR$/upay-crypto/upay-crypto.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-docs/upay-docs.iml" filepath="$PROJECT_DIR$/upay-docs/upay-docs.iml" />
       <module fileurl="file://$PROJECT_DIR$/upay-iso8583/upay-iso8583.iml" filepath="$PROJECT_DIR$/upay-iso8583/upay-iso8583.iml" />

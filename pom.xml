@@ -15,7 +15,8 @@
         <module>upay-api</module>
         <module>upay-crypto</module>
         <module>upay-swift</module>
-        <module>upay-mail</module>
+        <module>upay-email</module>
+        <module>upay-auditmanager</module>
         <module>upay-iso8583</module>
         <module>upay-webapp</module>
         <module>upay-settlement</module>

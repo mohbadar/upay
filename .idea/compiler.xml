@@ -17,6 +17,7 @@
         <module name="upay-transformer" />
         <module name="upay-docs" />
         <module name="upay-mpaisa" />
+        <module name="upay-auditmanager" />
         <module name="upay-crypto" />
         <module name="upay-server" />
         <module name="upay-youtap" />
@@ -27,6 +28,7 @@
       <module name="mobile-gateway" target="1.5" />
       <module name="upay-api" target="1.8" />
       <module name="upay-async" target="1.8" />
+      <module name="upay-auditmanager" target="1.8" />
       <module name="upay-crypto" target="1.8" />
       <module name="upay-docs" target="1.5" />
       <module name="upay-iso8583" target="1.8" />
@@ -44,6 +46,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="keycloak" options="-parameters" />
+      <module name="upay-auditmanager" options="-parameters" />
       <module name="upay-lang" options="-parameters" />
       <module name="upay-mail" options="-parameters" />
       <module name="upay-server" options="-parameters" />

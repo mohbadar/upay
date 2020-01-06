@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>af.asr.mail</groupId>
-	<artifactId>upay-mail</artifactId>
+	<artifactId>upay-email</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>upay-mail</name>
+	<name>upay-email</name>
 	<description>Mail Library for Upay Platform</description>
 
 	<properties>
