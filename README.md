@@ -8,7 +8,6 @@
   - Spring Boot 
   - Angular
   - Node.js 
-  - Angular 
 
 ## Installing and Configuring Keycloak
 Download the standalone server distribution from the [Keycloak website](https://www.keycloak.org/), unpack it and start the server. Follow the [Getting Started](https://www.keycloak.org/docs/latest/getting_started/index.html#creating-the-admin-account) instructions to setup the administrator account.
@@ -21,9 +20,9 @@ There are two ways to configure the Keycloak realm for this application:
 >This section is only for those who wish to manually configure the Keycloak server.
 
 #### 1. Create a realm
-Follow the [create a realm](https://www.keycloak.org/docs/latest/getting_started/index.html#_create-realm) instructions and create a realm called: `demo`
+Follow the [create a realm](https://www.keycloak.org/docs/latest/getting_started/index.html#_create-realm) instructions and create a realm called: `asr`
 #### 2. Create a client
-Follow steps 1- 3 of the [creating and registering](https://www.keycloak.org/docs/latest/getting_started/index.html#creating-and-registering-the-client) guide and create a new client called: `my-app`
+Follow steps 1- 3 of the [creating and registering](https://www.keycloak.org/docs/latest/getting_started/index.html#creating-and-registering-the-client) guide and create a new client called: `asr-app`
 
 In the **Valid Redirect URIs** field enter the two URLs: `http://localhost:8081/*` and `http://localhost:4200/*`
 > Note the asterisk (*) after the urls!
@@ -36,20 +35,20 @@ Highlight the `view-users` option in the **Available Roles** block and then clic
 #### 4. Create the following users:
 | Username | Password | First Name | Last Name | Email | Roles |
 | ------ | ------ | ------ | ------ | ------ | ------ |
-| badar | password | Mohammad Badar | Hashimi | `badar.hashimi.dev@gmail.com` | ADMIN, USER |
-| jabbar | password | Abdul Jabbar | Hashimi | `jabbar.hashimi@gmail.com` | USER |
-| sattar | password | Abdul Sattar | Hashimi | `sattar.hashimi@gmail.com` | USER |
+| badar | password | Mohammad Badar | Hashimi | `badar.hashimi.dev@gmail.com` | ADMIN, WEBUSER, ORGANIZATION |
+| jabbar | password | Abdul Jabbar | Hashimi | `jabbar.hashimi@gmail.com` | ORGANIZATION |
+| sattar | password | Abdul Sattar | Hashimi | `sattar.hashimi@gmail.com` | WEBUSER |
 > It is most important that you enter the username as provided in the table, because they are used in the Spring backend to link the customer orders with the user.
 
 ## Start the Spring Boot Application
 Open a terminal and change to the directory where the code was checked out.
-Next change to the `backend` directory and execure the following maven command:
+Next change to the `upay-server` directory and execure the following maven command:
 ```
 mvn clean package spring-boot:run
 ```
 ## Build and Run the Angular Frontend Application
 Open another terminal and change to the directory where the code was checked out.
-Next change to the `frontend` directory abd execute the following commands:
+Next change to the `upay-webapp` directory abd execute the following commands:
 ```
 npm install
 npm start
