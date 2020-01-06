@@ -23,6 +23,12 @@
         <module>upay-youtap</module>
         <module>upay-transformer</module>
         <module>upay-mpaisa</module>
+        <module>upay-virusscanner</module>
+        <module>upay-pdfgenerator</module>
+        <module>upay-logger</module>
+        <module>upay-crypto-jce</module>
+        <module>upay-crypto-signature</module>
+        <module>upay-card-pin</module>
     	<module>upay-server</module>
     </modules>
 

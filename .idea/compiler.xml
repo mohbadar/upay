@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="upay-email" />
+        <module name="upay-crypto-signature" />
         <module name="keycloak" />
         <module name="upay-lang" />
         <module name="upay-settlement" />
+        <module name="upay-crypto-jce" />
         <module name="upay-async" />
         <module name="upay-webapp" />
         <module name="upay-api" />
         <module name="upay-iso8583" />
+        <module name="upay-virusscanner" />
         <module name="upay-swift" />
         <module name="upay-transformer" />
         <module name="upay-docs" />
@@ -21,6 +25,8 @@
         <module name="upay-crypto" />
         <module name="upay-server" />
         <module name="upay-youtap" />
+        <module name="upay-logger" />
+        <module name="upay-pdfgenerator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,15 +36,21 @@
       <module name="upay-async" target="1.8" />
       <module name="upay-auditmanager" target="1.8" />
       <module name="upay-crypto" target="1.8" />
+      <module name="upay-crypto-jce" target="1.8" />
+      <module name="upay-crypto-signature" target="1.8" />
       <module name="upay-docs" target="1.5" />
+      <module name="upay-email" target="1.8" />
       <module name="upay-iso8583" target="1.8" />
       <module name="upay-lang" target="1.8" />
+      <module name="upay-logger" target="1.8" />
       <module name="upay-mail" target="1.8" />
       <module name="upay-mpaisa" target="1.8" />
+      <module name="upay-pdfgenerator" target="1.8" />
       <module name="upay-server" target="1.8" />
       <module name="upay-settlement" target="1.8" />
       <module name="upay-swift" target="1.8" />
       <module name="upay-transformer" target="1.8" />
+      <module name="upay-virusscanner" target="1.8" />
       <module name="upay-webapp" target="1.5" />
       <module name="upay-youtap" target="1.8" />
     </bytecodeTargetLevel>
@@ -47,9 +59,15 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="keycloak" options="-parameters" />
       <module name="upay-auditmanager" options="-parameters" />
+      <module name="upay-crypto-jce" options="-parameters" />
+      <module name="upay-crypto-signature" options="-parameters" />
+      <module name="upay-email" options="-parameters" />
       <module name="upay-lang" options="-parameters" />
+      <module name="upay-logger" options="-parameters" />
       <module name="upay-mail" options="-parameters" />
+      <module name="upay-pdfgenerator" options="-parameters" />
       <module name="upay-server" options="-parameters" />
+      <module name="upay-virusscanner" options="-parameters" />
       <module name="upay-youtap" options="-parameters" />
     </option>
   </component>

@@ -6,13 +6,18 @@
     <file url="file://$PROJECT_DIR$/upay-async/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-async/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-auditmanager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-crypto-jce/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-crypto-signature/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-crypto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-email/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-iso8583/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-iso8583/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-lang/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-lang/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-logger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-mpaisa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-mpaisa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-pdfgenerator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-settlement/src/main/java" charset="UTF-8" />
@@ -21,6 +26,7 @@
     <file url="file://$PROJECT_DIR$/upay-swift/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-transformer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-transformer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upay-virusscanner/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-youtap/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/upay-youtap/src/main/resources" charset="UTF-8" />
   </component>
