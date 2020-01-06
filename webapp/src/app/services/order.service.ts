@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Order } from '../models/order';
 
 const headers = new HttpHeaders().set('Content-Type', 'application/json');
-const apiUrl = "/shop/api/orders";
+const apiUrl = "/api/orders";
 
 @Injectable({
   providedIn: 'root'

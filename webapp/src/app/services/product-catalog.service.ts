@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { ProductCatalog } from '../models/product-catalog';
 
 const headers = new HttpHeaders().set('Content-Type', 'application/json');
-const apiUrl = "/shop/api/productcatalogs";
+const apiUrl = "/api/productcatalogs";
 
 @Injectable({
   providedIn: 'root'

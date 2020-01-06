@@ -6,7 +6,7 @@ import { map} from 'rxjs/operators';
 import { CustomerInfo } from '../models/customer.info';
 
 const headers = new HttpHeaders().set('Content-Type', 'application/json');
-const apiUrl = "/shop/api/customers";
+const apiUrl = "/api/customers";
 
 @Injectable({
   providedIn: 'root'

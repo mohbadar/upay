@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.Arrays;
 import java.util.List;
 
 @RestController
@@ -23,8 +24,8 @@ public class ProductCatalogController {
 	}
 
 	@GetMapping("/productcatalogs")
-	public List<ProductCatalog> getProductCatalogs() {
-		return productCatalogService.getProductCatalogs();
+	public List<String> getProductCatalogs() {
+		return Arrays.asList("works", "works1");
 	}
 
 	@PostMapping("/productcatalogs")

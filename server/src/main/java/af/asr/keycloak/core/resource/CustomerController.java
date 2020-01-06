@@ -16,13 +16,13 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(value = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/api")
 public class CustomerController {
 
 	@Autowired
 	private CustomerServiceImpl customerService;
 
-	@GetMapping("customers")
+	@GetMapping("/customers")
 	public List<CustomerInfo> searchForCustomers(@RequestParam("username") Optional<String> username,
 												 KeycloakPrincipal<KeycloakSecurityContext> principal) throws DoesNotExistException {
 		if (username.isPresent()) {
@@ -30,6 +30,11 @@ public class CustomerController {
 		}
 
 		return customerService.getCustomers(principal);
+	}
+
+	@GetMapping(value = "/test")
+	public String test(){
+		return "works";
 	}
 
 }

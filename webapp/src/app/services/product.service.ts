@@ -6,7 +6,7 @@ import { DatePipe } from '@angular/common';
 import { Product } from '../models/product';
 
 const headers = new HttpHeaders().set('Content-Type', 'application/json');
-const apiUrl = "/shop/api/products";
+const apiUrl = "/api/products";
 
 @Injectable({
   providedIn: 'root'
