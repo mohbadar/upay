@@ -21,6 +21,7 @@
         <module name="upay-transformer" />
         <module name="upay-docs" />
         <module name="upay-mpaisa" />
+        <module name="upay-card-pin" />
         <module name="upay-auditmanager" />
         <module name="upay-crypto" />
         <module name="upay-server" />
@@ -35,6 +36,7 @@
       <module name="upay-api" target="1.8" />
       <module name="upay-async" target="1.8" />
       <module name="upay-auditmanager" target="1.8" />
+      <module name="upay-card-pin" target="1.8" />
       <module name="upay-crypto" target="1.8" />
       <module name="upay-crypto-jce" target="1.8" />
       <module name="upay-crypto-signature" target="1.8" />
@@ -59,6 +61,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="keycloak" options="-parameters" />
       <module name="upay-auditmanager" options="-parameters" />
+      <module name="upay-card-pin" options="-parameters" />
       <module name="upay-crypto-jce" options="-parameters" />
       <module name="upay-crypto-signature" options="-parameters" />
       <module name="upay-email" options="-parameters" />
