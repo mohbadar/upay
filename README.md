@@ -1,5 +1,5 @@
 
-### Securing Angular and Spring Application with Keycloak
+### Mobile Money Payment Gateway
 
 ## Requirements
 
@@ -14,7 +14,7 @@
 Download the standalone server distribution from the [Keycloak website](https://www.keycloak.org/), unpack it and start the server. Follow the [Getting Started](https://www.keycloak.org/docs/latest/getting_started/index.html#creating-the-admin-account) instructions to setup the administrator account.
 
 There are two ways to configure the Keycloak realm for this application:
-1. Import the [demo-realm.json](keycloak/demo-realm.json)
+1. Import the keycloak-setup-config.json
 2. Follow the **Create Realm, Client and Users** guide
 
 ### Create Realm, Client and Users
