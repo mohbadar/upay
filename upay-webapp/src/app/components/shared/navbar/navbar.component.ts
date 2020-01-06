@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Location, PopStateEvent } from '@angular/common';
 import { CustomerStore } from '../../../stores/customer.store';
+import { Observable } from 'rxjs';
+import { CustomerInfo } from '../../../models/customer.info';
 
 @Component({
     selector: 'app-navbar',
@@ -12,6 +14,7 @@ export class NavbarComponent implements OnInit {
     public isCollapsed = true;
     private lastPoppedUrl: string;
     private yScrollStack: number[] = [];
+    customer$: Observable<CustomerInfo>;
 
     constructor(public location: Location, private router: Router, private customerStore: CustomerStore) {
     }
@@ -33,6 +36,9 @@ export class NavbarComponent implements OnInit {
      this.location.subscribe((ev:PopStateEvent) => {
          this.lastPoppedUrl = ev.url;
      });
+
+
+     this.customer$ = this.customerStore.getAll$();
     }
 
     isHome() {

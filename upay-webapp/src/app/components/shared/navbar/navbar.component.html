@@ -18,6 +18,8 @@
           <div class="col-6 collapse-close">
             <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
                   [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+              <span></span>
+              <span></span>
             </button>
           </div>
         </div>
@@ -139,9 +141,9 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href=""  target="_blank" data-toggle="tooltip" title="Like us on LinkedIn">
+          <a class="nav-link nav-link-icon"  (click)="logout()" data-toggle="tooltip" title="Sign Out">
             <i class="fa fa-sign-out"></i>
-            <span class="nav-link-inner--text d-lg-none">LinkedIn</span>
+            <span class="nav-link-inner--text d-lg-none">Sign Out</span>
           </a>
         </li>
 
